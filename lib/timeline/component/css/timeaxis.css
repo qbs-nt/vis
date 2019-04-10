@@ -53,3 +53,10 @@
 .vis-time-axis .vis-grid.vis-major {
   border-color: #bfbfbf;
 }
+
+.vis-time-axis .vis-grid.vis-substep {
+  /* same as vis-minor, but dotted */
+  border-color: #e5e5e5;
+  border-left-style: dotted;
+  border-right-style: dotted;
+}
