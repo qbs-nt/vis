@@ -8,7 +8,7 @@ set -e
 set -x
 
 BUILD_DIR="./dist"
-DEPLOY_TARGET="/Volumes/local/obgweb2/htdocs/jscript/qbus-js/vis-develop--forked"
+DEPLOY_TARGET="/Volumes/local/obgweb2/htdocs/jscript/vis-develop--forked"
 
 if [ ! -d `dirname "${DEPLOY_TARGET}"` ]; then
   echo "BASE DIR FOR DEPLOY TARGET '${DEPLOY_TARGET}' DOES NOT EXIST"
